@@ -10,7 +10,7 @@ const sessionConnect = require('connect-mongodb-session')(session)
 const app = express()
 
 const corsOptions = {  // orgin setup to front end 
-    origin: ['http://localhost:5001'], 
+    origin: ['http://localhost:5001', 'http://192.168.0.114:5001'], 
     credentials: true, 
 };
 
